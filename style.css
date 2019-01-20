@@ -1,0 +1,57 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    min-height: 100vh;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14);
+}
+
+.contactForm {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contactForm input,
+.contactForm button {
+    margin: 10px;
+}
+.contactsList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.contactItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
+}
+.contactImage {
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 250px;
+}
+.contactLabel,
+.contactEmail {
+    margin: 0;
+    margin-top: 10px;
+}
+.contactEmail {
+    text-decoration: none;
+    color: inherit;
+}
